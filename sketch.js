@@ -126,8 +126,7 @@ function Monster(){
 
 function splash(x,y){
     splashs=createSprite(x,y);
-    splashs.scale = 0.1;
-    splashs.setLifetime=200;
+    splashs.setLifetime=40;
     splashs.depth = -10;
     if (ku === 1){
       splashs.addImage(splash1);
