@@ -40,7 +40,6 @@ function setup() {
 ku = 0;
 
    splashs=createSprite(1000,1000000);
-   splashs.scale = 0.1;
    fruit=createSprite(10000,1000000);
    fruit.scale = 0.2;
   //set collider for sword
